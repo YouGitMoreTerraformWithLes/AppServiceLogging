@@ -11,7 +11,7 @@ I also had to downgrade the Microsoft.Extensions.Logging.ApplicationInsights pac
 eliminate a version compatibility warning in Visual Studio
 
 ## Application Insights Query
-traces
-| order by timestamp desc
-| extend cd = parse_json(customDimensions)
-| where cd.CategoryName == "AppServiceLogging.Controllers.HealthController"
+traces\
+| order by timestamp desc\
+| extend cd = parse_json(customDimensions)\
+| where cd.CategoryName == "AppServiceLogging.Controllers.HealthController"\
