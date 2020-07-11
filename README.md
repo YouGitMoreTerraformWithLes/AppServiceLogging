@@ -14,4 +14,4 @@ eliminate a version compatibility warning in Visual Studio
 traces\
 | order by timestamp desc\
 | extend cd = parse_json(customDimensions)\
-| where cd.CategoryName == "AppServiceLogging.Controllers.HealthController"\
+| where cd.CategoryName == "AppServiceLogging.Controllers.HealthController"
