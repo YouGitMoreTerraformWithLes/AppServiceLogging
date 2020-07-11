@@ -1,4 +1,4 @@
-# AppServiceLogging
+# Azure Application Service Web Application Logging Sample
 A sample ASP.NET Core 3.1 web application that implements application logging into Azure Application Insights
 
 ## Based on this example
